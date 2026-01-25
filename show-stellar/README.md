@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+1)Added cookies next for working with cookies
+2)Zustand state management library for state management
+3)Shadcn for UI library
+4)Swiper for sliding behaviour
+5)Added .env file for production variable and .env.local for development
+
+Please go to /component-demo how some of this things work.
