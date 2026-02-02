@@ -5,6 +5,7 @@ import { useCounterStore } from "@/components/zustand_store/simple_useCase";
 import { useEffect, useState } from "react";
 import { getCookie, setCookie } from "cookies-next";
 import { useRouter } from "next/navigation";
+import Container from "@/components/reusable_components/Container";
 
 const DemoComponent = () => {
   const count = useCounterStore((state) => state.count);
@@ -24,7 +25,7 @@ const DemoComponent = () => {
   const value = "ShowStellar";
 
   return (
-    <div className="flex flex-col min-h-screen items-start pl-8 pt-5 justify-start bg-zinc-50 font-sans dark:bg-black">
+    <Container className="flex flex-col min-h-screen items-start pl-8 pt-5 justify-start bg-zinc-50 font-sans dark:bg-black">
       <div>
         <h2 className="text-2xl font-bold">
           Zustand Usage (look for file simple_useCase.ts)
@@ -47,7 +48,7 @@ const DemoComponent = () => {
         </Button>
         <p>Cookie Value: {cookieValue}</p>
       </div>
-    </div>
+    </Container>
   );
 };
 

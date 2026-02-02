@@ -40,5 +40,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 3)Shadcn for UI library
 4)Swiper for sliding behaviour
 5)Added .env file for production variable and .env.local for development
+6)Please use any Images as webp and avoid using png and jpg as they are not web friendly and export image from figma in 2x
 
-Please go to /component-demo how some of this things work.
+Please go to http://localhost:3000/component-demo how some of this things work.
